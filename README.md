@@ -7,7 +7,7 @@ Dexbot starts as a few lines of code and grows into an autonomous warehouse robo
 ## Ability ladder
 | Stage | Dexbot can… | Status |
 | --- | --- | --- |
-| v0.1 | Exist, and drive a simulated turtle | 🔨 In progress |
+| v0.1 | Exist, and drive a simulated turtle |✅ Done |
 | v0.2 | Calculate its position (odometry) and control speed (PID) | ⏳ |
 | v0.3 | Drive itself to any point | ⏳ |
 | v0.5 | Take commands and start with one launch command | ⏳ |
@@ -17,6 +17,8 @@ Dexbot starts as a few lines of code and grows into an autonomous warehouse robo
 
 ## Changelog
 - **3 Nov 2026:** Dexbot is born. First C++ and Python programs.
+- **5 Nov 2026:** v0.1, Dexbot drives trough keyboard(turtlesim)
+![[Dexbot v0.1 driving in turtlesim](docs/v0.1-turtlesim.png)
 
 ## Repo layout
 - `core/`: Dexbot's core logic in C++ and Python
